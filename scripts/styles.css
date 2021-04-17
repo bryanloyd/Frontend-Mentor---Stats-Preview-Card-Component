@@ -48,7 +48,7 @@ body {
   padding: 30px;
 }
 
-.content__header {
+.content__header h1 {
   font-weight: 700;
   font-size: 2.8rem;
   line-height: 3.2rem;
@@ -60,7 +60,7 @@ body {
   color: #ab5cdb;
 }
 
-.content__main-text {
+.content__header p {
   font-weight: 400;
   opacity: 75%;
   font-size: 1.5rem;
@@ -68,14 +68,14 @@ body {
   text-align: center;
 }
 
-.content__list-header {
+.content__list-items h2 {
   font-size: 2.4rem;
   font-weight: 700;
   text-align: center;
   margin: 30px 0 5px 0;
 }
 
-.content__list-items {
+.content__list-items p {
   font-weight: 400;
   opacity: 60%;
   font-size: 1.2rem;
