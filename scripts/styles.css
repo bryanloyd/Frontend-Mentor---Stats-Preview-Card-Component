@@ -10,5 +10,78 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
-  font-family: "Lexend Deca", sans-serif;
+  background-color: #0a0c1c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image {
+  width: 327px;
+  height: 240px;
+  background-image: url(/images/image-header-mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(106, 20, 159, 0.6);
+}
+
+.content {
+  color: #fff;
+  height: max-content;
+  background-color: #1b1937;
+  padding: 30px;
+}
+
+.content__header {
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.content span {
+  color: #ab5cdb;
+}
+
+.content__main-text {
+  font-weight: 400;
+  opacity: 75%;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.content__list-header {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0 5px 0;
+}
+
+.content__list-items {
+  font-weight: 400;
+  opacity: 60%;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0%;
+  letter-spacing: 0.25rem;
 }
